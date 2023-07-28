@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on:  ubuntu-latest, #${{ matrix.os }}
+    runs-on:  windows-latest #${{ matrix.os }}
 #     strategy:
 #       matrix:
 #         os: [ macos-latest, ubuntu-latest, windows-latest ]
